@@ -52,7 +52,10 @@
       <p>That search is stored on our servers against your random identifier: the cities, the dates, the filters, the currency and the results we returned. It is stored because a search engine over cached fares only works if it knows what people are actually asking for. Concretely, it tells us which departure cities to keep priced, which combinations return nothing useful, and which cities to add next. Where a city you asked for had no cached prices, that miss is recorded too.</p>
 
       <h3>What the city picker sends</h3>
-      <p>When you type into the city picker we record what you typed, up to 120 characters, together with how many matches it produced and which city you finally chose. This includes text you typed and then abandoned without choosing anything. It is the only free text the app collects, and it exists for one reason: to find the gaps in our city index, where somebody types <em>Cologne</em> and our list only answers to <em>Köln</em>. Please don't type anything into it that you would not want recorded — it is a city search box, and that is all it is for.</p>
+      <p>When you type into the city picker we record what you typed, up to 120 characters, together with how many matches it produced and which city you finally chose. This includes text you typed and then abandoned without choosing anything. It exists for one reason: to find the gaps in our city index, where somebody types <em>Cologne</em> and our list only answers to <em>Köln</em>. Please don't type anything into it that you would not want recorded — it is a city search box, and that is all it is for.</p>
+
+      <h3>What you tell us on purpose</h3>
+      <p>Every so often, after a set of results, the app asks whether we found you somewhere good. Answering is entirely optional and the question can be dismissed. If you answer no, you are offered a box to say what was wrong; what you write there is sent to us, along with the language and platform you are using, and stored against the search that prompted it so we can reproduce the problem. Write only what you want us to read, and please leave out anything that identifies you or anybody else. If you answer yes, nothing is sent but the thumbs-up, and your phone's own app store handles any rating you choose to leave — we never see it as coming from you.</p>
 
       <h3>What your taps send</h3>
       <p>We record which destinations a results list showed you and in what order, which one you opened and where it sat in the list, and the same again if you share one. That is how we know whether the ranking is any good — a list nobody taps is a list in the wrong order. No page-by-page trail of your movements through the app is kept.</p>
@@ -80,6 +83,11 @@
             <td>Text typed into the city picker, including searches you abandoned, with the number of matches and the city chosen</td>
             <td>To find and fix gaps in the city index</td>
             <td>Legitimate interest in a working search box, Art. 6(1)(f) GDPR</td>
+          </tr>
+          <tr>
+            <td>Feedback you choose to send: the thumbs up or down, anything you write in the box that follows a thumbs-down, the language and platform, and the search it referred to</td>
+            <td>To find out where the ranking is wrong, and to fix it</td>
+            <td>Your consent, Art. 6(1)(a) GDPR — the question is optional and dismissable, and nothing is sent unless you answer</td>
           </tr>
           <tr>
             <td>Which results were shown, opened and shared, and their rank</td>
@@ -144,6 +152,7 @@
       <h2>Retention</h2>
       <ul>
         <li><strong>Searches and the records derived from them</strong> — the cities, dates, filters, results, city-picker text and result taps: kept for <span class="fill">[[RETENTION]]</span>, then deleted.</li>
+        <li><strong>Feedback you sent us</strong> — the verdict and anything you wrote: kept for <span class="fill">[[RETENTION]]</span>, then deleted, unless it describes a bug we are still working on.</li>
         <li><strong>The usage snapshot at RevenueCat</strong>: kept while the app is in service. Each attribute holds only the latest value, so it is overwritten rather than accumulated.</li>
         <li><strong>Everything on your phone</strong> — your saved home cities, your last twenty searches, your settings: kept until you clear them or uninstall the app. See <a href="#device">§09</a>.</li>
       </ul>
